@@ -432,7 +432,13 @@ form select {
   flex: 1;
   padding: 10px;
   border: none;
+  border-radius: 20px;
   cursor: pointer;
+}
+
+#close-modal-btn{
+    background-color: #ea5555;
+    color: #eee;
 }
 
 .modal-actions button[type="submit"] {
