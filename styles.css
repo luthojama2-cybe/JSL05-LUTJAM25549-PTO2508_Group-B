@@ -422,6 +422,26 @@ form select {
 }
 
 /* Modal actions */
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #ea5555;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#delete-task-btn {
+  background: #ea5555;
+  color: white;
+}
+
 .modal-actions {
   display: flex;
   gap: 12px;

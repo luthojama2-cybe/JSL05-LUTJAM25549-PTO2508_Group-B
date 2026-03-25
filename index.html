@@ -47,7 +47,7 @@
         </main>
       </div>
 
-      <!-- 🔥 ADD TASK BUTTON -->
+      <!-- ADD TASK BUTTON -->
       <div class="add-task-wrapper">
         <button id="add-task-btn">+ Add Task</button>
       </div>
@@ -55,27 +55,35 @@
 
     <!-- MODAL -->
     <dialog id="task-modal">
-      <form method="dialog" id="task-form">
-        <h3 id="modal-title">Add Task</h3>
+  <form method="dialog" id="task-form">
+    <!-- Header -->
+    <div class="modal-header">
+      <h3 id="modal-title">Task</h3>
+      <button type="button" id="close-modal-btn" class="close-btn">
+        &times;
+      </button>
+    </div>
 
-        <label>Title</label>
-        <input type="text" id="task-title" required />
+    <!-- Inputs -->
+    <label>Title</label>
+    <input type="text" id="task-title" required />
 
-        <label>Description</label>
-        <textarea id="task-desc"></textarea>
+    <label>Description</label>
+    <textarea id="task-desc"></textarea>
 
-        <label>Status</label>
-        <select id="task-status">
-          <option value="todo">To Do</option>
-          <option value="doing">Doing</option>
-          <option value="done">Done</option>
-        </select>
+    <label>Status</label>
+    <select id="task-status">
+      <option value="todo">To Do</option>
+      <option value="doing">Doing</option>
+      <option value="done">Done</option>
+    </select>
 
-        <div class="modal-actions">
-          <button type="submit">Save Changes</button>
-          <button type="button" id="close-modal-btn">Delete Task</button>
-        </div>
-      </form>
-    </dialog>
+    <!-- Actions -->
+    <div class="modal-actions">
+      <button type="submit">Save Task</button>
+      <button type="button" id="delete-task-btn">Delete</button>
+    </div>
+  </form>
+</dialog>
   </body>
 </html>
