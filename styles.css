@@ -400,3 +400,46 @@ form select {
     padding: 24px;
   }
 }
+
+
+/* ADD TASK BUTTON*/
+
+/* Add Task Button */
+.add-task-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  padding: 24px;
+}
+
+#add-task-btn {
+  background: #635fc7;
+  color: white;
+  border: none;
+  padding: 16px 24px;
+  border-radius: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Modal actions */
+.modal-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.modal-actions button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.modal-actions button[type="submit"] {
+  background: #635fc7;
+  color: white;
+}
+
+.modal-actions button[type="button"] {
+  background: #eee;
+}
