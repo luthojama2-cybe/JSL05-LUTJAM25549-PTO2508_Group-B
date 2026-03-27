@@ -42,3 +42,4 @@ In this project, you will implement a task management system where **tasks are p
 ## Expected Outcome
 
 A fully functional task management system where tasks are dynamically loaded from **local storage**, tasks can be **added through a modal**, and the application **remains consistent** after refreshing the page. The code will be modular, well-documented, and easy to maintain, following best practices for JavaScript development.
+

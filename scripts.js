@@ -106,7 +106,7 @@ function handleFormSubmit(e) {
     tasks.push(newTask);
   }
 
-  saveTasksToStorage(); // 🔥 SAVE HERE
+  saveTasksToStorage(); // SAVE HERE
 
   document.getElementById("task-modal").close();
   renderTasks();
@@ -114,7 +114,7 @@ function handleFormSubmit(e) {
 
 /* ---------- INIT ---------- */
 function init() {
-  loadTasksFromStorage(); // 🔥 LOAD FIRST
+  loadTasksFromStorage(); // LOAD FIRST
   renderTasks();
 
   document
